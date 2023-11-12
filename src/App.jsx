@@ -3,11 +3,11 @@ import "../style.css";
 
 export default function App() {
   const imagesData = [
-    { src: "https://img.esa.io/uploads/production/attachments/8704/2023/11/06/28750/aec23f5f-70aa-4301-9b46-56aedb01dd41.jpg", alt: "Closeup of a human eye" },
-    { src: "https://img.esa.io/uploads/production/attachments/8704/2023/11/06/28750/b1b21aba-ec51-481d-aa0d-7a31c5f45f6d.jpg", alt: "Rock that looks like a wave" },
-    { src: "https://img.esa.io/uploads/production/attachments/8704/2023/11/06/28750/8afb22f3-594c-4ffa-bf6a-7a6963634a2d.jpg", alt: "Purple and white pansies" },
-    { src: "https://img.esa.io/uploads/production/attachments/8704/2023/11/06/28750/ad87bcd8-7276-4d72-a6f0-07249249cdc2.jpg", alt: "Section of wall from a pharaoh's tomb" },
-    { src: "https://img.esa.io/uploads/production/attachments/8704/2023/11/06/28750/d10919e2-5af1-487a-83dd-0c91ae0b15f9.jpg", alt: "Large moth on a leaf" }
+    { src: "images/pic1.jpg", alt: "Closeup of a human eye" },
+    { src: "images/pic2.jpg", alt: "Rock that looks like a wave" },
+    { src: "images/pic3.jpg", alt: "Purple and white pansies" },
+    { src: "images/pic4.jpg", alt: "Section of wall from a pharaoh's tomb" },
+    { src: "images/pic5.jpg", alt: "Large moth on a leaf" }
   ];
 
   const [displayedImage, setDisplayedImage] = useState(imagesData[0]);
